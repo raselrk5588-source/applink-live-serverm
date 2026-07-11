@@ -18,7 +18,7 @@ class SMSSubscriptionController extends Controller
         
         return response()->json([
             'statusCode' => 'S1000',
-            'statusDetail' => 'Success Auto Deploy',
+            'statusDetail' => 'Success',
         ]);
     }
 }

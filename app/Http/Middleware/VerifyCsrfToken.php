@@ -27,6 +27,5 @@ class VerifyCsrfToken extends Middleware
          "applink/ussd",
          "applink/sms",
          "applink/notify",
-         "webhook/deploy",
     ];
 }

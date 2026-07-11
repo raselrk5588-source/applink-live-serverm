@@ -77,8 +77,6 @@ Route::post('applink/ussd', 'API\UssdSubscriptionController@index');
 Route::post('applink/sms', 'API\SMSSubscriptionController@index');
 Route::post('applink/notify', 'API\SubscriptionNotificationController@index');
 
-Route::post('webhook/deploy', 'API\DeployController@deploy');
-
 /**
  * universal route
  */

@@ -101,7 +101,7 @@
     <div class="login-container">
         <div class="login-header">
             <h2>Create an Account</h2>
-            <p>Register to <strong>{{ config('app.name', 'RTSquad') }}</strong></p>
+            <p>Register to <strong>{{ config('app.name', 'aLink') }}</strong></p>
         </div>
 
         <form method="POST" action="{{ route('register') }}">

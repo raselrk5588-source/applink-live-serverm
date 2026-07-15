@@ -278,7 +278,7 @@
     <div class="login-container">
         <div class="login-header">
             <h2>Welcome Back</h2>
-            <p>Sign In to <strong>{{ config('app.name', 'RTSquad') }}</strong></p>
+            <p>Sign In to <strong>{{ config('app.name', 'aLink') }}</strong></p>
         </div>
 
         <form method="POST" action="{{ route('login') }}">

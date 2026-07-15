@@ -6,8 +6,8 @@
     <meta name="description" content="{{ config('app.site_name', 'Applink') }}">
     <meta name="author" content="{{ config('app.site_name', 'Applink') }}">
     
-    <link rel="shortcut icon" href="{{ asset('admin/images/favicon.ico') }}">
-    <title>Register - {{ config('app.name', 'Applink') }}</title>
+    <link rel="shortcut icon" href="{{ asset('admin/images/alink_favicon.png') }}">
+    <title>Register - aLink</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

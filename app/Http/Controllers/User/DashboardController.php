@@ -22,7 +22,8 @@ class DashboardController extends Controller
     public function index()
     {
         $this->data['install_app'] = InstallApp::where("user_id", Auth::user()->id)->get()->count();
-        $this->data['total_left'] = (int) config('app.total_install_limit') - $this->data['install_app'];
+        $maxLimit = config('app.total_install_limit') ?: 6;
+        $this->data['total_left'] = (int) $maxLimit - $this->data['install_app'];
         $install_app = new InstallApp;
         $this->data['total_apps'] = $install_app->get_app_details();
         //        dd($data);

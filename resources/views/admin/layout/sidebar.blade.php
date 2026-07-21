@@ -116,6 +116,9 @@
                     <li>
                         <a href="{{ route("admin.installapp.index")}}" class="waves-effect {{set_Topmenu("installapp")}}"><i class="fa fa-mobile"></i><span> Installed Apps </span></a>
                     </li>
+                    <li>
+                        <a href="{{ route("admin.settings")}}" class="waves-effect {{set_Topmenu("settings")}}"><i class="md md-settings"></i><span> Settings </span></a>
+                    </li>
                 <div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>

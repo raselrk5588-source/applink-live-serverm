@@ -37,6 +37,8 @@ Route::group(['prefix'=>'admin','middleware'=>['admin','auth'],'namespace'=>'Adm
     Route::resource('university', 'UniversityController')->except(['show', 'edit', 'update', 'create']);
     Route::resource('installapp', 'InstallAppController')->except(['show', 'create', 'store']);
 
+    Route::get('/settings', 'SettingController@index')->name('settings');
+    Route::post('/settings', 'SettingController@update');
 });
 
 /**

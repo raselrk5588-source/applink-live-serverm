@@ -25,7 +25,7 @@
                     <div class="mini-stat clearfix bx-shadow">
                         <span class="mini-stat-icon bg-info"><i class="md  md-shopping-basket"></i></span>
                         <div class="mini-stat-info text-right text-muted">
-                            <span class="">{{$install_app}}/{{config('app.total_install_limit') ?: 6}}</span>
+                            <span class="">{{$install_app}}/{{config('app.total_install_limit') ?: 10}}</span>
                             Total Install
                         </div>
                     </div>
